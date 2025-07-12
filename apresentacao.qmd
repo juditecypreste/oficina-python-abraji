@@ -1,0 +1,122 @@
+---
+title: "Só o código salva: como o Python pode te ajudar a fazer investigações"
+subtitle: "20° Congresso Internacional de Jornalismo Investigativo"
+format: 
+    revealjs:
+        theme: night
+        slide-number: true
+        center: true
+        css: estilo.css
+---
+
+## 🙋🏻‍♀️ Oi! Meu nome é Judite Cypreste
+
+::: columns
+::: {.column width="60%"}
+- Sou jornalista de dados há 7 anos.
+- Atualmente trabalho no **g1**, o portal de notícias da TV Globo.
+- [Meu site](https://juditecypreste.com/)
+:::
+
+::: {.column width="40%"}
+![](https://abraji-congresso.s3.sa-east-1.amazonaws.com/8f11c5d5d38eb7415a695daf1663313d.png){width=300px style="border-radius: 50%;"}
+:::
+:::
+---
+
+## 🎙️ Bate-papo rápido: minhas experiências com programação {.smaller}
+
+Aprendi a programar quando decidi que queria investigar histórias que pareciam impossíveis de contar manualmente.
+
+Um dos meus primeiros projetos foi durante a Copa do Mundo de 2018, quando quis mostrar como os torcedores brasileiros estavam se sentindo, em tempo real, com base no que publicavam no ex-Twitter.
+
+![](copa_mundo.png){width=500px style="display: block; margin-left: auto; margin-right: auto;"}
+
+---
+
+Uma das coisas que me fez não desistir de aprender a programar foi sempre pensar em ideias de projetos. Eu estudava para resolver aquele problema, mas acabava aprendendo coisas que serviam para várias outras apurações.
+
+**Programar é como aprender uma língua: sempre haverá algo novo para você aprender, por mais fluente que seja.**
+
+---
+
+## 🗓️ Cronograma da Oficina
+
+### Parte 1 – Domingo, 9h às 11h 
+**"Por que raios eu quero aprender Python?"**  
+
+- Por que aprender Python?
+- Instalação
+- Conceitos básicos (variáveis, listas, dicionários)
+- Meu primeiro programa em Python
+
+---
+
+## 🗓️ Cronograma da Oficina
+
+### Parte 2 – Domingo, 11h30 às 13h  
+**"Já me sinto hacker!"**  
+
+- Lendo bases de dados com `pandas`
+- Analisando dados: filtrando, agrupando e investigando
+- Exemplo a partir de uma investigação: como foi o passo a passo da reportagem que encontrou candidatos foragidos da Justiça
+
+---
+
+## ❓ Mas antes de continuar, vamos entender porque aprender Python é legal!
+
+---
+
+## 🐍 Por que aprender Python? {.smaller}
+
+- Porque hoje existem dados sobre praticamente qualquer assunto, mas nem sempre eles podem ser abertos no Excel ou Google Sheets... e você pode perder a chance de encontrar uma história ou checar uma informação.
+- Porque Python não serve só pra analisar dados: ele também ajuda a automatizar tarefas, raspar sites (extrair dados automaticamente de páginas da web)...
+- Porque aprender Python é aprender lógica, organização e pensamento estruturado — coisas que servem pra programar, mas também pra pensar e investigar melhor.
+- Porque você não precisa virar programador(a). Só precisa entender o suficiente pra mexer nos dados com autonomia e fazer perguntas melhores.
+- Porque tem uma comunidade gigante no mundo inteiro e alguém já teve exatamente a dúvida que você vai ter. A resposta já tá na internet, só esperando você encontrar.
+- Porque por mais que a AI possa te ajudar a fazer códigos, se você não souber o que ela está fazendo, não saberá se o programa que ela te deu está correto.
+
+---
+
+## 🛠️ Agora vamos para a prática!
+
+---
+
+## ⚙️ Instalação do Python {.smaller}
+
+---
+
+## ❌ Agora, não!
+
+A pior parte de aprender Python costuma ser **instalar no computador**: mil versões, erro no terminal, PATH que some... caos.  
+
+Então a gente vai **pular essa parte** e evitar que vocês saiam correndo!  
+
+Vamos usar o [Google Colab](https://colab.research.google.com), que roda no navegador, sem instalar nada.
+
+---
+
+## 📥 E se eu quiser instalar depois?
+
+Quando vocês saírem daqui, provavelmente vão querer instalar o Python no computador de vocês (espero! 😄)
+
+Aqui estão os tutoriais por sistema operacional:
+
+- **Linux**: [python.org.br/instalacao-linux](https://python.org.br/instalacao-linux/)
+- **Windows**: [python.org.br/instalacao-windows](https://python.org.br/instalacao-windows/)
+- **Mac**: [python.org.br/instalacao-mac](https://python.org.br/instalacao-mac/)
+
+---
+
+## 🚀 E agora vamos para a prática!
+
+::: columns
+::: {.column width="60%"}
+Acesso ao exercício:  
+[https://bit.ly/oficina-python-congresso-abraji](https://bit.ly/oficina-python-congresso-abraji)
+:::
+
+::: {.column width="40%"}
+![](qr-code.jpeg){width=300px}
+:::
+:::

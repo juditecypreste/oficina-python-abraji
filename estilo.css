@@ -1,0 +1,23 @@
+/* Tamanhos específicos para títulos */
+.reveal h1 {
+  font-size: 2em;      /* Título principal */
+}
+
+.reveal h2 {
+  font-size: 1.5em;    /* Subtítulo */
+}
+
+.reveal h3 {
+  font-size: 1.2em;    /* Título menor */
+}
+
+/* Texto de parágrafos padrão */
+.reveal p, 
+.reveal li {
+  font-size: 0.9em;    /* Um pouco menor que o padrão */
+}
+
+/* Tamanho de código em bloco */
+.reveal pre code {
+  font-size: 0.8em;
+}
