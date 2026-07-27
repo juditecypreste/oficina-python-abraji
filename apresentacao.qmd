@@ -47,7 +47,7 @@ Uma das coisas que me fez não desistir de aprender a programar foi sempre pensa
 - Instalação
 - Conceitos básicos (variáveis, listas, dicionários)
 - Meu primeiro programa
-- Lendo e analisando uma bases de dados com `pandas`
+- Lendo e analisando uma base de dados com `pandas`
 
 ---
 
