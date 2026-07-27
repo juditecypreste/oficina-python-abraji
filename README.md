@@ -1,6 +1,6 @@
-# Oficina: Só o código salva: como o Python pode te ajudar a fazer investigações
+# Oficina: Python para quem nunca programou: os primeiros passos na programação
 
-Apresentação e materiais da oficina ministrada no 20º Congresso Internacional de Jornalismo Investigativo da Abraji (2025).
+Apresentação e materiais da oficina ministrada no 21º Congresso Internacional de Jornalismo Investigativo da Abraji (2026).
 
 ## Link para acessar os slides: [juditecypreste.com/oficina-python-abraji](https://juditecypreste.com/oficina-python-abraji)
 
