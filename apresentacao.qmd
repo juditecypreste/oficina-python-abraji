@@ -3,6 +3,7 @@ title: "Python para quem nunca programou: os primeiros passos na programação"
 subtitle: "21° Congresso Internacional de Jornalismo Investigativo"
 format: 
     revealjs:
+        output-file: index.html
         theme: night
         slide-number: true
         center: true
