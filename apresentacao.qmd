@@ -1,6 +1,6 @@
 ---
-title: "Só o código salva: como o Python pode te ajudar a fazer investigações"
-subtitle: "20° Congresso Internacional de Jornalismo Investigativo"
+title: "Python para quem nunca programou: os primeiros passos na programação"
+subtitle: "21° Congresso Internacional de Jornalismo Investigativo"
 format: 
     revealjs:
         theme: night
@@ -13,9 +13,9 @@ format:
 
 ::: columns
 ::: {.column width="60%"}
-- Sou jornalista de dados há 7 anos.
-- Atualmente trabalho no **g1**, o portal de notícias da TV Globo.
-- [Meu site](https://juditecypreste.com/)
+- Sou jornalista de dados há 8 anos.
+- Atualmente sou pesquisadora em administração pública na FGV EAESP, onde pesquiso a falta de interoperabilidade entre sistemas públicos.
+- Vejam mais sobre meu trabalho e redes [aqui.](https://juditecypreste.com/)
 :::
 
 ::: {.column width="40%"}
@@ -36,34 +36,22 @@ Um dos meus primeiros projetos foi durante a Copa do Mundo de 2018, quando quis 
 
 Uma das coisas que me fez não desistir de aprender a programar foi sempre pensar em ideias de projetos. Eu estudava para resolver aquele problema, mas acabava aprendendo coisas que serviam para várias outras apurações.
 
-**Programar é como aprender uma língua: sempre haverá algo novo para você aprender, por mais fluente que seja.**
+
+**Eu sempre digo que programar é como aprender uma língua: sempre haverá algo novo para você aprender, por mais fluente que você acha que seja.**
 
 ---
 
-## 🗓️ Cronograma da Oficina
-
-### Parte 1 – Domingo, 9h às 11h 
-**"Por que raios eu quero aprender Python?"**  
+## 📝 O que vamos ver hoje:
 
 - Por que aprender Python?
 - Instalação
 - Conceitos básicos (variáveis, listas, dicionários)
-- Meu primeiro programa em Python
+- Meu primeiro programa
+- Lendo e analisando uma bases de dados com `pandas`
 
 ---
 
-## 🗓️ Cronograma da Oficina
-
-### Parte 2 – Domingo, 11h30 às 13h  
-**"Já me sinto hacker!"**  
-
-- Lendo bases de dados com `pandas`
-- Analisando dados: filtrando, agrupando e investigando
-- Exemplo a partir de uma investigação: como foi o passo a passo da reportagem que encontrou candidatos foragidos da Justiça
-
----
-
-## ❓ Mas antes de continuar, vamos entender porque aprender Python é legal!
+## Antes de continuar, vamos entender porque aprender Python é legal!
 
 ---
 
@@ -71,7 +59,7 @@ Uma das coisas que me fez não desistir de aprender a programar foi sempre pensa
 
 - Porque hoje existem dados sobre praticamente qualquer assunto, mas nem sempre eles podem ser abertos no Excel ou Google Sheets... e você pode perder a chance de encontrar uma história ou checar uma informação.
 - Porque Python não serve só pra analisar dados: ele também ajuda a automatizar tarefas, raspar sites (extrair dados automaticamente de páginas da web)...
-- Porque aprender Python é aprender lógica, organização e pensamento estruturado — coisas que servem pra programar, mas também pra pensar e investigar melhor.
+- Porque aprender Python é aprender lógica, organização e pensamento estruturado, coisas que servem pra programar, mas também pra pensar e investigar melhor.
 - Porque você não precisa virar programador(a). Só precisa entender o suficiente pra mexer nos dados com autonomia e fazer perguntas melhores.
 - Porque tem uma comunidade gigante no mundo inteiro e alguém já teve exatamente a dúvida que você vai ter. A resposta já tá na internet, só esperando você encontrar.
 - Porque por mais que a AI possa te ajudar a fazer códigos, se você não souber o que ela está fazendo, não saberá se o programa que ela te deu está correto.
@@ -84,15 +72,9 @@ Uma das coisas que me fez não desistir de aprender a programar foi sempre pensa
 
 ## ⚙️ Instalação do Python {.smaller}
 
----
+A pior parte de aprender Python costuma ser **instalar no computador**: mil versões, erro no terminal, PATH que some... caos. O que levaria algum tempo para conseguirmos concluir.
 
-## ❌ Agora, não!
-
-A pior parte de aprender Python costuma ser **instalar no computador**: mil versões, erro no terminal, PATH que some... caos.  
-
-Então a gente vai **pular essa parte** e evitar que vocês saiam correndo!  
-
-Vamos usar o [Google Colab](https://colab.research.google.com), que roda no navegador, sem instalar nada.
+Então para esta aula, vamos  **pular essa parte** e utilizar o [Google Colab](https://colab.research.google.com), que roda no navegador, sem precisar instalar nada.
 
 ---
 
@@ -113,10 +95,10 @@ Aqui estão os tutoriais por sistema operacional:
 ::: columns
 ::: {.column width="60%"}
 Acesso ao exercício:  
-[https://bit.ly/oficina-python-congresso-abraji](https://bit.ly/oficina-python-congresso-abraji)
+[https://bit.ly/oficina-python-congresso-abraji-2026](https://bit.ly/oficina-python-congresso-abraji-2026)
 :::
 
 ::: {.column width="40%"}
-![](qr-code.jpeg){width=300px}
+![](qr-code.png){width=300px}
 :::
 :::

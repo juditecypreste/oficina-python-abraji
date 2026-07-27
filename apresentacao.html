@@ -9,7 +9,7 @@
 <link href="apresentacao_files/libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.32">
 
-  <title>Só o código salva: como o Python pode te ajudar a fazer investigações</title>
+  <title>Python para quem nunca programou: os primeiros passos na programação</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,8 +127,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Só o código salva: como o Python pode te ajudar a fazer investigações</h1>
-  <p class="subtitle">20° Congresso Internacional de Jornalismo Investigativo</p>
+  <h1 class="title">Python para quem nunca programou: os primeiros passos na programação</h1>
+  <p class="subtitle">21° Congresso Internacional de Jornalismo Investigativo</p>
 
 <div class="quarto-title-authors">
 </div>
@@ -139,9 +139,9 @@
 <div class="columns">
 <div class="column" style="width:60%;">
 <ul>
-<li>Sou jornalista de dados há 7 anos.</li>
-<li>Atualmente trabalho no <strong>g1</strong>, o portal de notícias da TV Globo.</li>
-<li><a href="https://juditecypreste.com/">Meu site</a></li>
+<li>Sou jornalista de dados há 8 anos.</li>
+<li>Atualmente sou pesquisadora em administração pública na FGV EAESP, onde pesquiso a falta de interoperabilidade entre sistemas públicos.</li>
+<li>Vejam mais sobre meu trabalho e redes <a href="https://juditecypreste.com/">aqui.</a></li>
 </ul>
 </div><div class="column" style="width:40%;">
 <p><img data-src="https://abraji-congresso.s3.sa-east-1.amazonaws.com/8f11c5d5d38eb7415a695daf1663313d.png" style="border-radius: 50%;" width="300"></p>
@@ -156,38 +156,27 @@
 <section class="slide level2 center">
 
 <p>Uma das coisas que me fez não desistir de aprender a programar foi sempre pensar em ideias de projetos. Eu estudava para resolver aquele problema, mas acabava aprendendo coisas que serviam para várias outras apurações.</p>
-<p><strong>Programar é como aprender uma língua: sempre haverá algo novo para você aprender, por mais fluente que seja.</strong></p>
+<p><strong>Eu sempre digo que programar é como aprender uma língua: sempre haverá algo novo para você aprender, por mais fluente que você acha que seja.</strong></p>
 </section>
-<section id="cronograma-da-oficina" class="slide level2 center">
-<h2>🗓️ Cronograma da Oficina</h2>
-<h3 id="parte-1-domingo-9h-às-11h">Parte 1 – Domingo, 9h às 11h</h3>
-<p><strong>“Por que raios eu quero aprender Python?”</strong></p>
+<section id="o-que-vamos-ver-hoje" class="slide level2 center">
+<h2>📝 O que vamos ver hoje:</h2>
 <ul>
 <li>Por que aprender Python?</li>
 <li>Instalação</li>
 <li>Conceitos básicos (variáveis, listas, dicionários)</li>
-<li>Meu primeiro programa em Python</li>
+<li>Meu primeiro programa</li>
+<li>Lendo e analisando uma bases de dados com <code>pandas</code></li>
 </ul>
 </section>
-<section id="cronograma-da-oficina-1" class="slide level2 center">
-<h2>🗓️ Cronograma da Oficina</h2>
-<h3 id="parte-2-domingo-11h30-às-13h">Parte 2 – Domingo, 11h30 às 13h</h3>
-<p><strong>“Já me sinto hacker!”</strong></p>
-<ul>
-<li>Lendo bases de dados com <code>pandas</code></li>
-<li>Analisando dados: filtrando, agrupando e investigando</li>
-<li>Exemplo a partir de uma investigação: como foi o passo a passo da reportagem que encontrou candidatos foragidos da Justiça</li>
-</ul>
-</section>
-<section id="mas-antes-de-continuar-vamos-entender-porque-aprender-python-é-legal" class="slide level2 center">
-<h2>❓ Mas antes de continuar, vamos entender porque aprender Python é legal!</h2>
+<section id="antes-de-continuar-vamos-entender-porque-aprender-python-é-legal" class="slide level2 center">
+<h2>Antes de continuar, vamos entender porque aprender Python é legal!</h2>
 </section>
 <section id="por-que-aprender-python" class="slide level2 smaller center">
 <h2>🐍 Por que aprender Python?</h2>
 <ul>
 <li>Porque hoje existem dados sobre praticamente qualquer assunto, mas nem sempre eles podem ser abertos no Excel ou Google Sheets… e você pode perder a chance de encontrar uma história ou checar uma informação.</li>
 <li>Porque Python não serve só pra analisar dados: ele também ajuda a automatizar tarefas, raspar sites (extrair dados automaticamente de páginas da web)…</li>
-<li>Porque aprender Python é aprender lógica, organização e pensamento estruturado — coisas que servem pra programar, mas também pra pensar e investigar melhor.</li>
+<li>Porque aprender Python é aprender lógica, organização e pensamento estruturado, coisas que servem pra programar, mas também pra pensar e investigar melhor.</li>
 <li>Porque você não precisa virar programador(a). Só precisa entender o suficiente pra mexer nos dados com autonomia e fazer perguntas melhores.</li>
 <li>Porque tem uma comunidade gigante no mundo inteiro e alguém já teve exatamente a dúvida que você vai ter. A resposta já tá na internet, só esperando você encontrar.</li>
 <li>Porque por mais que a AI possa te ajudar a fazer códigos, se você não souber o que ela está fazendo, não saberá se o programa que ela te deu está correto.</li>
@@ -198,12 +187,8 @@
 </section>
 <section id="instalação-do-python" class="slide level2 smaller center">
 <h2>⚙️ Instalação do Python</h2>
-</section>
-<section id="agora-não" class="slide level2 center">
-<h2>❌ Agora, não!</h2>
-<p>A pior parte de aprender Python costuma ser <strong>instalar no computador</strong>: mil versões, erro no terminal, PATH que some… caos.</p>
-<p>Então a gente vai <strong>pular essa parte</strong> e evitar que vocês saiam correndo!</p>
-<p>Vamos usar o <a href="https://colab.research.google.com">Google Colab</a>, que roda no navegador, sem instalar nada.</p>
+<p>A pior parte de aprender Python costuma ser <strong>instalar no computador</strong>: mil versões, erro no terminal, PATH que some… caos. O que levaria algum tempo para conseguirmos concluir.</p>
+<p>Então para esta aula, vamos <strong>pular essa parte</strong> e utilizar o <a href="https://colab.research.google.com">Google Colab</a>, que roda no navegador, sem precisar instalar nada.</p>
 </section>
 <section id="e-se-eu-quiser-instalar-depois" class="slide level2 center">
 <h2>📥 E se eu quiser instalar depois?</h2>
@@ -220,9 +205,9 @@
 <div class="columns">
 <div class="column" style="width:60%;">
 <p>Acesso ao exercício:<br>
-<a href="https://bit.ly/oficina-python-congresso-abraji">https://bit.ly/oficina-python-congresso-abraji</a></p>
+<a href="https://bit.ly/oficina-python-congresso-abraji-2026">https://bit.ly/oficina-python-congresso-abraji-2026</a></p>
 </div><div class="column" style="width:40%;">
-<p><img data-src="qr-code.jpeg" width="300"></p>
+<p><img data-src="qr-code.png" width="300"></p>
 </div></div>
 
 </section>
